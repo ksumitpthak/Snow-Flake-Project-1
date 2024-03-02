@@ -1,7 +1,7 @@
 **SQL Statements** 
 Building Stage and File Format
 CREATE STAGE my_stage
-URL = 's3://dw-snowflake-course-darshil/instacart/'
+URL = "s3://skp-instacart-market-data/aisle/"
 CREDENTIALS = (AWS_KEY_ID = '' AWS_SECRET_KEY = '');
 
 
